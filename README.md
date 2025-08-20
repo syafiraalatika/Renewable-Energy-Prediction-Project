@@ -2,7 +2,7 @@
 
 ## Project Background
 
-This project was undertaken from the perspective of a data professional at **NextEra Energy**, one of the world's leading renewable energy providers. In an industry driven by high capital investment and complex global factors, the key challenge is to identify not just where to invest, but *how* to invest for maximum impact.
+This project was undertaken from the perspective of a data professional at **NextEra Energy**, one of the world's leading renewable energy providers. In an industry driven by high capital investment and complex global factors, The key challenge is determining where to invest, and equally, how to invest to maximize impact.
 
 The goal of this project is to move beyond simple production metrics and develop a deeper, strategic understanding of the global renewable energy landscape. It aims to answer critical business questions and build a predictive tool to guide future investment decisions.
 
@@ -35,9 +35,9 @@ The data consists of 31 columns, which can be grouped into several key categorie
 
 ### Overview of Findings
 
-The central finding of this analysis is that success in renewable energy is not driven by raw investment alone, but by a **supportive ecosystem**. The analysis concludes that success in the renewable sector is a function of a synergistic ecosystem where capital investment is amplified by effective policy and a strong innovation pipeline.
+This analysis finds that a **supportive ecosystem** is the key driver of success in renewable energy, more so than raw investment. The analysis concludes that success in the renewable sector is a function of a synergistic ecosystem where capital investment is amplified by effective policy and a strong innovation pipeline.
 
-The analysis first identified four distinct archetypes of nations based on their investment efficiency. Subsequently, a state-of-the-art stacked ensemble model was built to predict energy production. The model's results quantitatively confirmed this "ecosystem theory" by ranking not just investment, but also regulatory quality and innovation, as top drivers of success.
+The analysis first identified four distinct archetypes of nations based on their investment efficiency. Subsequently, a state-of-the-art stacked ensemble model was built to predict energy production. The model's results quantitatively confirmed this 'ecosystem theory' by showing that investment, regulatory quality, and innovation are all top drivers of success.
 
 ---
 
@@ -47,7 +47,7 @@ The analysis first identified four distinct archetypes of nations based on their
 
 By plotting total investment against an efficiency metric (GWh produced per million USD), the "Efficiency Frontier Matrix" was created. This visualization immediately revealed four strategic country profiles:
 
-
+<img width="2633" height="1744" alt="image" src="https://github.com/user-attachments/assets/43060a44-f0c9-4fea-855e-bf7225349cf8" />
 
 - **Leaders (e.g., USA, China):** High Investment, High Efficiency. These nations successfully scale their renewable energy sector.
 - **Rising Stars (e.g., UK, Brazil):** Low Investment, High Efficiency. These countries are models of strategic effectiveness, achieving excellent results with less capital.
@@ -58,7 +58,7 @@ By plotting total investment against an efficiency metric (GWh produced per mill
 
 To quantify the factors driving these results, a stacked ensemble model was built. The model's feature importance plot revealed the "secret sauce" of successful renewable energy ecosystems:
 
-
+<img width="2529" height="1729" alt="image" src="https://github.com/user-attachments/assets/679bf38b-b8a7-4cdd-a672-43d8dd3f52e1" />
 
 - **Infrastructure is Foundational:** `Installed Capacity` is the single most important predictor.
 - **Policy and Innovation are Multipliers:** The engineered feature, **`Innovation_x_RD`**, ranked in the top 10, proving R&D is most effective in an innovative environment. The high importance of **`Regulatory Quality`** confirms that stable governance is essential for turning investment into energy.
